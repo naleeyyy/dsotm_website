@@ -1,29 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;400;500;700&display=swap');
-
 body {
-    background: url('../images/dark\ side\ heartrate.jpg') black;
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-width: 1000px;
-    width: 100vw;
-    min-height: 93vh;
-    overflow-x: hidden;
-    color: white;
-    font-family: 'Outfit', sans-serif;
-    text-align: center;
-    position: relative;
-}
-
-.text {
-    max-width: 90%;
-    min-width: 80%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 1.25rem;
+    background: url('../../images/dark\ side\ heartrate.jpg') black;
 }
 
 .different {
-    text-shadow: 5px 5px 1em black;
+    text-shadow: 1em 1em 1em black;
 }

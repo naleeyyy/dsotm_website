@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;400;500;700&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* min-width: 1000px; */
+    width: 100vw;
+    min-height: 93vh;
+    overflow-x: hidden;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    position: relative;
+}
+
+.text {
+    max-width: 90%;
+    min-width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.25rem;
+}
