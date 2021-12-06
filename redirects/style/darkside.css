@@ -6,8 +6,24 @@ body {
     background-repeat: no-repeat;
     min-width: 1000px;
     width: 100vw;
-    height: 100vh;
-    overflow: hidden;
+    min-height: 93vh;
+    overflow-x: hidden;
     color: white;
     font-family: 'Outfit', sans-serif;
+    text-align: center;
+    position: relative;
+}
+
+.text {
+    max-width: 90%;
+    min-width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.25rem;
+}
+
+.different {
+    text-shadow: 5px 5px 1em black;
 }
