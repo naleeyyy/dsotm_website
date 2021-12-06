@@ -1,0 +1,5 @@
+body {
+    background: url('../../images/the_wall.jpg');
+    color: gray !important;
+    text-shadow: 1em 1em 1em black;
+}
