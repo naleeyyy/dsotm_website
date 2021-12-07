@@ -28,3 +28,19 @@ body {
     transform: translate(-50%, -50%);
     font-size: 1.25rem;
 }
+
+.back {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-decoration: none;
+    color: inherit;
+    font-size: 2vw;
+    border: 2px solid transparent;
+    transition: border-color 0.5s ease-in-out;
+    border-radius: 5px;
+}
+
+.back:hover {
+    border-color: inherit;
+}

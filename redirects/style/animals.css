@@ -1,3 +1,4 @@
 body {
-    background: url('../../images/animals\ background.jpg');
+    background: url('../../images/animals.png');
+    text-shadow: 1px 1px 5px black;
 }
